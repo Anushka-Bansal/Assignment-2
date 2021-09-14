@@ -1,0 +1,282 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:blanchedalmond;
+    background-size: cover;
+}
+/* .container-fluid{
+    background-color: crimson;
+    background-size: cover;
+} */
+
+.navbar .nav-link{
+    font-size:16px;
+    text-transform: uppercase;
+    padding-left: 16px !important;;
+    padding-right:16px !important;
+}
+.navbar-brand{
+    height:50px;
+    width:200px;
+}
+li{
+    position:relative;
+}
+
+.uniq a:before{
+    position: absolute;
+    content: "";
+    width:70%;
+    height:10px;
+    border-left:3px solid cornflowerblue;
+    left:50%;
+    top:0;  
+}
+.uniq a:after{
+    position: absolute;
+    content: "";
+    width:70%;
+    height:10px;
+    border-right:3px solid cornflowerblue;
+    right:45%;
+    bottom:0;  
+}
+
+/* slider css */
+.d-block{
+    width: 900px; 
+    height: 500px;
+}
+.cap1{
+    color: black;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: -350px;
+    margin-left: -100px;
+}
+.cap2{
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: -100px;
+}
+.cap3{
+    float: left;
+    margin-left: -100px;
+}
+
+/* button*/
+.btnma{
+    margin:10px 15px;
+    width:33%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* featued collection*/
+.ourservices{
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.line {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.line:before, .line:after {
+ content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    margin: 10px 40px;
+    
+}
+#circles {
+    display: inline-block;
+    margin-right: -15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 2px black;
+  }
+
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"-"
+}
+.breadcrumb{
+    background:none;
+}
+.breadcrumb-item{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+/*  featured product section*/
+
+#product{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-flow:column;
+    width:100vw;
+    text-decoration: none;
+}
+
+.card-img{
+    padding: 3px;
+}
+.card-text{
+    color:red;
+}
+ 
+/*main card*/
+.circle{
+    font-size: 6px;
+}
+.fa-star{
+    color:gold;
+}
+.img-product{
+    height:550px;
+    width:555px;
+}
+.title{
+    margin-top:20px;
+    font-weight: bolder;
+}
+.price{
+    margin-top:15px;
+}
+.p1,.p2{
+    margin-top:15px;
+    color:white;
+}
+.colors,.size{
+    margin-left:15px;
+}
+.p2{
+    font-weight: bold;
+}
+.size{
+    border:1px solid white;
+    padding:5px 12px;
+}
+.t1{
+    margin-left: 15px;
+    padding: 8px;
+    background-color:mediumblue;
+    color: white;
+    text-align: center;
+}
+/* insta section */
+.des{
+    height:150px;
+    width:150px;
+}
+.lines {
+    display: flex;
+    flex-direction: row;
+    margin-left:25%;
+    width: 50%;
+}
+
+.lines:before, .lines:after {
+ content: "";
+    flex: 2 2;
+    border-bottom: 2px solid #000;
+    margin: 10px 40px;
+    
+}
+#circless {
+    display: inline-block;
+    margin-right: -15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 2px black;
+}
+
+  /*Best seller section*/
+
+.feature {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .feature h1 {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+  .feature ul {
+    margin-top: 40px;
+  }
+  .feature li {
+    text-decoration: none;
+    display: inline;
+    padding-left: 20px;
+  }
+  
+  .btn-size1 {
+    padding: 1px 9px;
+    height: 35px;
+    border: 1px solid rgb(195, 203, 206);
+    background: white;
+  }
+  .btn-size1:hover {
+    background-color: rgb(41, 147, 233);
+    color: white;
+  }
+  
+  .featured {
+    margin-top: 45px;
+    margin-bottom: -10px;
+  }
+/*footer image section*/
+.footerset{
+    background-image: url("../Images/slide4.jpg");
+    background-size:cover;
+    height:700px;
+    box-sizing: border-box;
+    padding-top:80px;
+    padding:30px;
+
+}
+.rpic{
+    height: 70px;
+    width: 70px;
+    border-radius:100%
+}
+.coma{
+    font-size: 40px;
+}
+.foot-head{
+    font-style: italic;
+    font-size: 20px;
+    min-height: 60px;
+    padding-top: 20px;
+}
+.foot-para{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18PX;
+    margin-top:20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.foot-span{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12PX;
+}
+.foot-par{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 30;
+}
+.img5{
+    width: 10%;
+
+}
